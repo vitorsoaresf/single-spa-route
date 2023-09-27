@@ -1,7 +1,7 @@
 {
   "name": "@vt/react-route",
   "scripts": {
-    "start": "webpack serve -- --port 8603",
+    "start": "webpack serve -- --port 8602",
     "start:standalone": "webpack serve --env standalone",
     "build": "concurrently npm:build:*",
     "build:webpack": "webpack --mode=production",
